@@ -11,7 +11,7 @@ A simple HTML that converts your CSV file into a __Searchable__ and __Sortable__
 1. Clone this repository locally.
 
 1. Copy your `.csv` to the csv folder.
-1. Update line 66 with the name of your file e.g. `var csvfile_import_122860 = "./csv/example.csv".replace(/\&amp\;/g, '&');`
+1. Update `script.js` with the name of your file e.g. `var csvfile_import_122860 = "./csv/example.csv".replace(/\&amp\;/g, '&');`
 1. Start the HTTP server locally ```python -m http.server```.
 1. In the browser, go to ```http://localhost:8000/src/```.
 
